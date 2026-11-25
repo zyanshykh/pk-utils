@@ -6,6 +6,7 @@ Validation and helper utilities for Pakistan-specific data.
     pip install pk-utils   (coming soon)
 
 ## Usage
+    from pk_utils.iban import is_valid_iban
     from pk_utils.cnic import is_valid_cnic
     from pk_utils.mobile import normalize_mobile
 
@@ -15,7 +16,7 @@ Validation and helper utilities for Pakistan-specific data.
 ## Roadmap
 - [x] CNIC validation
 - [x] Mobile normalization
-- [ ] IBAN validation
+- [x] IBAN validation
 - [ ] City list
 - [ ] NTN validation
 
