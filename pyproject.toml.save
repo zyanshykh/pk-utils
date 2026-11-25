@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pk-utils"
+version = "0.1.0"
+description = "Validation and helper utilities for Pakistan"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

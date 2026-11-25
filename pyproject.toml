@@ -11,7 +11,7 @@ requires-python = ">=3.10"
 license = {text = "MIT"}
 
 [tool.setuptools]
-packages = ["pk_utils"]
+packages = ["pakistan-utils"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
